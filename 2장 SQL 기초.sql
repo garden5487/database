@@ -51,5 +51,9 @@ insert into `user1copy` select * from `user1`;
 
 #실습 2-8
 use studyDB;
-create Table `tbltuser' (
-
+create Table `tbltuser` (
+`uid` VARCHAR(10),
+`name` VARCHAR(10),
+`hp` CHAR(13),
+`age` INT
+);
