@@ -65,7 +65,7 @@ create table `User3` (
           
           
 #실습 3-7
-create table `User4` (
+CREATE TABLE `User4` (
 	`uid`      VARCHAR(10) PRIMARY KEY,
 	`name`     VARCHAR(10) NOT NULL,
 	`gender`   CHAR(1),
@@ -75,16 +75,10 @@ create table `User4` (
 );
     
 #실습 3-8
-insert into `User4` values ('A101','김유신','M','21','010-1234-1001','김해');
-insert into `User4` values ('A102','김춘추','M','20','010-1234-1002','경주');
-insert into `User4` values ('A103','장보고','M','31','010-1234-1003','완도');
-insert into `User4` set
-					`uid`='A104',
-                    `name`='신사임당',
-                    `gender`='F',
-                    `addr`='강릉';
-
-select * from `User4`;
+insert into `User4` values ('A101', '김유신','M','21','010-1234-1001','김해');
+insert into `User4` values ('A102', '김춘추','M','20','010-1234-1002','경주');
+insert into `User4` values ('A103', '장보고','M','31','010-1234-1003','완도');
+SELECT * FROM `User4`; 
 
 
 # 실습 3-9
