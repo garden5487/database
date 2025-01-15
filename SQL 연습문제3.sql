@@ -1,5 +1,5 @@
 #날짜 : 2025/01/15
-#이름 : 김철학
+#이름 : 박정원
 #내용 : SQL 연습문제3
 
 #실습3-1
@@ -7,6 +7,7 @@ create database `College`;
 create user 'college'@'%' identified by '1234';
 grant all privileges on `College`.* to 'college'@'%';
 flush privileges;
+use college;
 
 #실습3-2
 CREATE TABLE `Student` (
@@ -33,6 +34,7 @@ CREATE TABLE `Register` (
 	`regTotalScore`	TINYINT,
 	`regGrade`			CHAR(1)
 );
+
 
 #실습3-3
 INSERT INTO `Student` VALUES ('20201016', '김유신', '010-1234-1001', 3, NULL);
