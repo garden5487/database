@@ -1,4 +1,4 @@
-#날짜 : 2025/01/07
+customer#날짜 : 2025/01/07
 #이름 : 김철학
 #내용 : 3장 테이블 제약조건
 
@@ -12,7 +12,7 @@ CREATE TABLE `User2` (
 
 #실습 3-2
 insert into `User2` values ('A101', '김유신', '1990-02-03', '김해');
-insert into `User2` values ('A102', '김춘추', '1991-02-03', '경주');
+insert into `Ususer1er2` values ('A102', '김춘추', '1991-02-03', '경주');
 insert into `User2` values ('A103', '장보고', '1992-02-03', '완도');
 select * from `User2`;
 

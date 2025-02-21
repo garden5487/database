@@ -1,5 +1,5 @@
-#날짜 : 2025/01/06
-#이름 : 김철학
+article`comment`#날짜 : 2025/01/06
+#이름 : 박정원
 #내용 : 2장 SQL 기초
 
 #실습 2-1
@@ -9,7 +9,7 @@ CREATE TABLE `User1` (
     `name`	VARCHAR(10),
     `hp`	CHAR(13),
     `age`	INT
-);
+);user3user2user1
 
 DROP TABLE `User1`;
 
@@ -26,7 +26,7 @@ SELECT * FROM `User1` WHERE `uid`='A101';
 SELECT * FROM `User1` WHERE `name`='김춘추';
 SELECT * FROM `User1` WHERE `age` < 30;
 SELECT * FROM `User1` WHERE `age` >= 30;
-SELECT `uid`, `name`, `age` FROM `User1`;
+SELECT `uid`, `name`, `age`user2 FROM `User1`;
 
 #실습 2-4
 UPDATE `User1` SET `hp`='010-1234-4444' WHERE `uid`='A104';
@@ -66,7 +66,7 @@ INSERT INTO `TblUser` (`user_id`, `user_name`, `user_addr`)
 
 INSERT INTO `TblUser` SET 
 						`user_id`='p105', 
-						`user_name`='이순신', 
+						`user_name`='이순신user2', 
 						`user_hp`='010-1234-1005', 
 						`user_age`=25;
 
