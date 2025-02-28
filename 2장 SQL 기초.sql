@@ -1,4 +1,4 @@
-article`comment`#날짜 : 2025/01/06
+shoperdarticle`comment`#날짜 : 2025/01/06
 #이름 : 박정원
 #내용 : 2장 SQL 기초
 
